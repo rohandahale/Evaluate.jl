@@ -1,11 +1,7 @@
 using Pkg
-Pkg.develop("VLBIReconEval")
-Pkg.instantiate()
 using Documenter
 using DocumenterVitepress
-Pkg.develop("VLBIReconEval")
 using VLBIReconEval
-
 
 DocMeta.setdocmeta!(VLBIReconEval, :DocTestSetup, :(using VLBIReconEval); recursive=true)
 
