@@ -1,0 +1,6 @@
+[deps]
+Comrade = "99d987ce-9a1e-4df8-bc0b-1ea019aa547b"
+DataFrames = "a93c6f00-e57d-5684-b7b6-d8193f3e46c0"
+Pyehtim = "3d61700d-6e5b-419a-8e22-9c066cf00468"
+VIDA = "4096cdfb-f084-40a3-b02d-1a2a54920cb8"
+VLBIReconEval = "5857853a-a46d-4c21-b1f3-e1e470773ac7"

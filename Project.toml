@@ -1,0 +1,16 @@
+name = "VLBIReconEval"
+uuid = "5857853a-a46d-4c21-b1f3-e1e470773ac7"
+authors = ["Rohan Dahale"]
+version = "1.0.0-DEV"
+
+[deps]
+DocumenterVitepress = "4710194d-e776-4893-9690-8d956a29c365"
+
+[compat]
+julia = "1.10.6"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
