@@ -1,8 +1,11 @@
 using Pkg
+Pkg.develop("VLBIReconEval")
+Pkg.instantiate()
 using Documenter
 using DocumenterVitepress
+Pkg.develop("VLBIReconEval")
 using VLBIReconEval
-Pkg.instantiate()
+
 
 DocMeta.setdocmeta!(VLBIReconEval, :DocTestSetup, :(using VLBIReconEval); recursive=true)
 
@@ -21,7 +24,7 @@ makedocs(;
     pages=[
         "Home" => "index.md",
         "introduction.md",
-        "Tutorials" => ["tutorials/tutorial1.md"],
+        #"Tutorials" => ["tutorials/tutorial1.md"],
         "api.md"
     ],
 )
