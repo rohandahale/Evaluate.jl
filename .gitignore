@@ -3,5 +3,5 @@
 *.jl.mem
 /docs/Manifest.toml
 /docs/build/
-.CondaPkg
-/examples/.CondaPkg
+examples/.CondaPkg/*
+examples/.CondaPkg

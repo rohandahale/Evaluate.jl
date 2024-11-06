@@ -67,6 +67,5 @@ jobs:
             using Pkg
             using Documenter: DocMeta, doctest
             using VLBIReconEval
-            Pkg.instantiate()
             DocMeta.setdocmeta!(VLBIReconEval, :DocTestSetup, :(using VLBIReconEval); recursive=true)
             doctest(VLBIReconEval)'
