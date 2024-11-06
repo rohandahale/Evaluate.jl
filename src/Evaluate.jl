@@ -1,4 +1,4 @@
-module VLBIReconEval
+module Evaluate
 
 # Write your package code here.
 

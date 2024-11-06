@@ -1,4 +1,4 @@
-name = "VLBIReconEval"
+name = "Evaluate"
 uuid = "5857853a-a46d-4c21-b1f3-e1e470773ac7"
 authors = ["Rohan Dahale"]
 version = "1.0.0-DEV"

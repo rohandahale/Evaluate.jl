@@ -1,6 +1,6 @@
-using VLBIReconEval
+using Evaluate
 using Test
 
-@testset "VLBIReconEval.jl" begin
+@testset "Evaluate.jl" begin
     # Write your tests here.
 end

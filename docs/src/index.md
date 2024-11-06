@@ -3,7 +3,7 @@
 layout: home
 
 hero:
-  name: VLBIReconEval.jl
+  name: Evaluate.jl
   tagline: Evaluate and validate black hole videos
   actions:
     - theme: brand
@@ -12,6 +12,6 @@ hero:
     - theme: alt
       icon: github
       text: View on Github
-      link: https://github.com/rohandahale/VLBIReconEval.jl
+      link: https://github.com/rohandahale/Evaluate.jl
 ---
 ```

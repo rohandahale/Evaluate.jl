@@ -1,19 +1,19 @@
 using Pkg
 using Documenter
 using DocumenterVitepress
-using VLBIReconEval
+using Evaluate
 
-DocMeta.setdocmeta!(VLBIReconEval, :DocTestSetup, :(using VLBIReconEval); recursive=true)
+DocMeta.setdocmeta!(Evaluate, :DocTestSetup, :(using Evaluate); recursive=true)
 
 ENV["JULIA_DEBUG"] = Documenter
 makedocs(;
     modules=[VLBIReconEval],
     authors="Rohan Dahale",
-    repo="https://github.com/rohandahale/VLBIReconEval.jl/blob/{commit}{path}#{line}",
-    sitename="VLBIReconEval.jl",
+    repo="https://github.com/rohandahale/Evaluate.jl/blob/{commit}{path}#{line}",
+    sitename="Evaluate.jl",
     warnonly=false,
     format=MarkdownVitepress(;
-        repo="https://github.com/rohandahale/VLBIReconEval.jl/",
+        repo="https://github.com/rohandahale/Evaluate.jl/",
         devurl = "dev",
         devbranch = "main",
     ),
@@ -26,6 +26,6 @@ makedocs(;
 )
 
 deploydocs(;
-    repo="github.com/rohandahale/VLBIReconEval.jl/",
+    repo="github.com/rohandahale/Evaluate.jl/",
     devbranch="main",
 )

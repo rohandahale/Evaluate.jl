@@ -1,4 +1,4 @@
-# VLBIReconEval API
+# Evaluate API
 
 ## Index
 ```@index

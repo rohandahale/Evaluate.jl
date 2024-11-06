@@ -67,6 +67,6 @@ jobs:
           julia --project=docs -e '
             using Pkg
             using Documenter: DocMeta, doctest
-            using VLBIReconEval
-            DocMeta.setdocmeta!(VLBIReconEval, :DocTestSetup, :(using VLBIReconEval); recursive=true)
-            doctest(VLBIReconEval)'
+            using Evaluate
+            DocMeta.setdocmeta!(Evaluate, :DocTestSetup, :(using Evaluate); recursive=true)
+            doctest(Evaluate)'

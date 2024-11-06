@@ -5,3 +5,4 @@
 /docs/build/
 examples/.CondaPkg/*
 examples/.CondaPkg
+/.vscode/
