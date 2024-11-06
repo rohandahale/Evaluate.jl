@@ -1848,11 +1848,6 @@ git-tree-sha1 = "ace1726c640958be43a8957dd95860b0365007b4"
 uuid = "90db92cd-0007-4c0a-8e51-dbf0782ce592"
 version = "0.2.7"
 
-[[deps.VLBIReconEval]]
-deps = ["DocumenterVitepress"]
-path = "/home/rohandahale/.julia/dev/VLBIReconEval"
-uuid = "5857853a-a46d-4c21-b1f3-e1e470773ac7"
-version = "1.0.0-DEV"
 
 [[deps.VLBISkyModels]]
 deps = ["AbstractFFTs", "Accessors", "ArgCheck", "BasicInterpolators", "ChainRulesCore", "ComradeBase", "DelimitedFiles", "DimensionalData", "DocStringExtensions", "EnzymeCore", "FFTW", "FITSIO", "FillArrays", "ForwardDiff", "LinearAlgebra", "NFFT", "NamedTupleTools", "PaddedViews", "PolarizedTypes", "Printf", "RecipesBase", "Reexport", "Serialization", "SpecialFunctions", "StaticArrays", "StructArrays"]

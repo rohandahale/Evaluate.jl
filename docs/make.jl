@@ -7,7 +7,7 @@ DocMeta.setdocmeta!(Evaluate, :DocTestSetup, :(using Evaluate); recursive=true)
 
 ENV["JULIA_DEBUG"] = Documenter
 makedocs(;
-    modules=[VLBIReconEval],
+    modules=[Evaluate],
     authors="Rohan Dahale",
     repo="https://github.com/rohandahale/Evaluate.jl/blob/{commit}{path}#{line}",
     sitename="Evaluate.jl",
